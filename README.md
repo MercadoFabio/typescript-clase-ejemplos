@@ -21,7 +21,6 @@ Ejemplos completos para mostrar en clase cada tema del material `2026_TUP_3C_PII
 ## Setup inicial (una sola vez)
 
 ```bash
-cd /Users/fabmercado/Downloads/typescript-clase-ejemplos
 npm install        # instala TypeScript local (devDependency)
 ```
 
