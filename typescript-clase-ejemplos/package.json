@@ -1,0 +1,25 @@
+{
+  "name": "typescript-clase-ejemplos",
+  "version": "1.0.0",
+  "description": "Ejemplos de TypeScript para la clase de la Unidad 2",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "clean": "rm -rf 0*/dist 1*/dist dist",
+    "demo:01": "cd 01-introduccion && npx tsc hola.ts && node hola.js",
+    "demo:02": "cd 02-tipos-basicos && npx tsc && node dist/primitivos.js && node dist/arrays.js && node dist/any-vs-unknown.js && node dist/inferencia.js",
+    "demo:03": "cd 03-funciones && npx tsc && node dist/funciones.js",
+    "demo:04": "cd 04-tipos-avanzados && npx tsc && node dist/objetos.js && node dist/uniones.js && node dist/alias-vs-interface.js && node dist/null-undefined.js && node dist/enums.js",
+    "demo:05": "cd 05-genericos-utility && npx tsc && node dist/genericos.js && node dist/condicionales-infer.js && node dist/utility-types.js",
+    "demo:06": "cd 06-clases-poo && npx tsc && node dist/clase-basica.js && node dist/modificadores.js && node dist/getters-setters.js && node dist/herencia.js && node dist/implements.js && node dist/abstractas.js",
+    "demo:07": "cd 07-modulos && npx tsc && node dist/app.js",
+    "demo:08": "cd 08-di-solid && npx tsc && node dist/di-manual.js",
+    "demo:09": "cd 09-decoradores && npx tsc && node dist/decoradores.js",
+    "demo:10": "cd 10-comparacion-js-ts && node version-js.js && npx tsc version-ts.ts && node version-ts.js",
+    "demo:11": "cd 11-seguridad-validacion && npx tsc && node dist/narrowing.js && node dist/type-guards.js && node dist/validacion-frontera.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  }
+}
